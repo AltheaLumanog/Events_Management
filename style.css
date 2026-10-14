@@ -1,0 +1,52 @@
+/* my custom styles */
+body {
+    background-color: #f7f5fb;
+}
+
+.navbar-purple {
+    background-color: #4b2e83;
+}
+
+/* big banner on the home page */
+.hero {
+    background: linear-gradient(135deg, #4b2e83, #8e44ad);
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+/* event cards */
+.event-card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+.event-card:hover {
+    transform: translateY(-4px);
+    transition: transform 0.2s;
+}
+
+/* the little calendar box with month and day */
+.date-badge {
+    background-color: #4b2e83;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    padding: 6px 12px;
+    line-height: 1.1;
+    min-width: 60px;
+}
+.date-badge .month {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+.date-badge .day {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+/* login / register box */
+.form-box {
+    max-width: 460px;
+    margin: 40px auto;
+}
